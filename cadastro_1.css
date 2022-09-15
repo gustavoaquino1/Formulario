@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap');
+
+*{
+    margin: 0;
+}
+
+body{
+    font-size: 100%;
+    display: block;
+    margin: 0 auto;
+    justify-content: center;
+    background-image: linear-gradient(to right, rgba(241, 30, 128, 0.911) , rgba(71, 143, 226, 0.938));
+}
+
+form {
+    display:flex;
+    justify-content: center;
+    margin: 25px;
+}
+
+fieldset{
+    display: flex;
+    margin-top: 5%;
+    flex-direction: column;
+    border: none;
+    padding: 15px;
+    background-color: rgba(8, 10, 12, 0.377);
+    border-radius: 6px;
+    height: 260px;
+}
+
+h1{
+    display: flex;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(247, 247, 247);
+    padding: 0px;
+}
+
+.Formulario-input{
+    display: flex;
+    color: rgb(83, 88, 92);
+    font-family: 'Barlow Condensed', sans-serif;
+    padding: 6px;
+    margin: 4px;
+    width: 223px;
+}
+
+.Formulario-label{
+    margin: 4px;
+    justify-items: left;
+    color: aliceblue;
+    font-family: 'Barlow Condensed', sans-serif;   
+}
+
+.botao-cadrasto:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
+.botao-cadrasto{
+    display: flex;
+    border: none;
+    text-decoration: none;
+    justify-content: center;
+    margin: 10px;
+    width: 30%;
+    padding: 1%;
+    background-color: rgb(240, 237, 234);
+    border-radius: 10px;
+    font-family: 'Barlow Condensed', sans-serif;
+    margin-left: 30%;
+    box-shadow: 4px 3px 4px rgba(0, 0, 0, 0.25); 
+}
+
+
+
+
+
